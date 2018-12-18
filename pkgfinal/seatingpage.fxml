@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="410.0" prefWidth="370.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgfinal.SeatingpageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="381.0" layoutX="14.0" layoutY="14.0" stroke="#314774" strokeType="INSIDE" width="343.0" />
+      <HBox fx:id="seatingChart" layoutX="25.0" layoutY="22.0" spacing="5.0">
+         <children>
+            <VBox fx:id="aSeats" prefHeight="362.0" prefWidth="30.0" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1A">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="justOne" />
+                     </toggleGroup></ToggleButton>
+                  <ToggleButton mnemonicParsing="false" text="2A" />
+                  <ToggleButton mnemonicParsing="false" text="3A" />
+                  <ToggleButton mnemonicParsing="false" text="4A" />
+                  <ToggleButton mnemonicParsing="false" text="5A" />
+                  <ToggleButton mnemonicParsing="false" text="6A" />
+                  <ToggleButton mnemonicParsing="false" text="7A" />
+                  <ToggleButton mnemonicParsing="false" text="8A" />
+               </children>
+            </VBox>
+            <VBox fx:id="bSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1B" />
+                  <ToggleButton mnemonicParsing="false" text="2B" />
+                  <ToggleButton mnemonicParsing="false" text="3B" />
+                  <ToggleButton mnemonicParsing="false" text="4B" />
+                  <ToggleButton mnemonicParsing="false" text="5B" />
+                  <ToggleButton mnemonicParsing="false" text="6B" />
+                  <ToggleButton mnemonicParsing="false" text="7B" />
+                  <ToggleButton mnemonicParsing="false" text="8B" />
+               </children>
+            </VBox>
+            <VBox prefHeight="362.0" prefWidth="38.0" />
+            <VBox fx:id="cSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1C" />
+                  <ToggleButton mnemonicParsing="false" text="2C" />
+                  <ToggleButton mnemonicParsing="false" text="3C" />
+                  <ToggleButton mnemonicParsing="false" text="4C" />
+                  <ToggleButton mnemonicParsing="false" text="5C" />
+                  <ToggleButton mnemonicParsing="false" text="6C" />
+                  <ToggleButton mnemonicParsing="false" text="7C" />
+                  <ToggleButton mnemonicParsing="false" text="8C" />
+               </children>
+            </VBox>
+            <VBox fx:id="dSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1D" />
+                  <ToggleButton mnemonicParsing="false" text="2D" />
+                  <ToggleButton mnemonicParsing="false" text="3D" />
+                  <ToggleButton mnemonicParsing="false" text="4D" />
+                  <ToggleButton mnemonicParsing="false" text="5D" />
+                  <ToggleButton mnemonicParsing="false" text="6D" />
+                  <ToggleButton mnemonicParsing="false" text="7D" />
+                  <ToggleButton mnemonicParsing="false" text="8D" />
+               </children>
+            </VBox>
+            <VBox fx:id="eSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1E" />
+                  <ToggleButton mnemonicParsing="false" text="2E" />
+                  <ToggleButton mnemonicParsing="false" text="3E" />
+                  <ToggleButton mnemonicParsing="false" text="4E" />
+                  <ToggleButton mnemonicParsing="false" text="5E" />
+                  <ToggleButton mnemonicParsing="false" text="6E" />
+                  <ToggleButton mnemonicParsing="false" text="7E" />
+                  <ToggleButton mnemonicParsing="false" text="8E" />
+               </children>
+            </VBox>
+            <VBox prefHeight="362.0" prefWidth="38.0" />
+            <VBox fx:id="fSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1F" />
+                  <ToggleButton mnemonicParsing="false" text="2F" />
+                  <ToggleButton mnemonicParsing="false" text="3F" />
+                  <ToggleButton mnemonicParsing="false" text="4F" />
+                  <ToggleButton mnemonicParsing="false" text="5F" />
+                  <ToggleButton mnemonicParsing="false" text="6F" />
+                  <ToggleButton mnemonicParsing="false" text="7F" />
+                  <ToggleButton mnemonicParsing="false" text="8F" />
+               </children>
+            </VBox>
+            <VBox fx:id="gSeats" spacing="22.0">
+               <children>
+                  <ToggleButton mnemonicParsing="false" text="1G" />
+                  <ToggleButton mnemonicParsing="false" text="2G" />
+                  <ToggleButton mnemonicParsing="false" text="3G" />
+                  <ToggleButton mnemonicParsing="false" text="4G" />
+                  <ToggleButton mnemonicParsing="false" text="5G" />
+                  <ToggleButton mnemonicParsing="false" text="6G" />
+                  <ToggleButton mnemonicParsing="false" text="7G" />
+                  <ToggleButton mnemonicParsing="false" text="8G" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

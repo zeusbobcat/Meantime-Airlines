@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="402.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgfinal.ReservationspageController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#314774" height="389.0" layoutX="3.0" layoutY="6.0" stroke="#314774" strokeType="INSIDE" width="643.0" />
+      <TextArea fx:id="resPage" layoutX="7.0" layoutY="10.0" prefHeight="381.0" prefWidth="636.0" />
+   </children>
+</AnchorPane>

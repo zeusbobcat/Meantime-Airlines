@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="303.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgfinal.FlightpassengersController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#314774" height="536.0" layoutX="5.0" layoutY="6.0" stroke="#314774" strokeType="INSIDE" width="293.0" />
+      <TextArea fx:id="passengerList" layoutX="8.0" layoutY="9.0" prefHeight="530.0" prefWidth="287.0" />
+   </children>
+</AnchorPane>

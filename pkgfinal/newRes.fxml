@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane id="AnchorPane" prefHeight="52.0" prefWidth="630.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkgfinal.NewResController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="45.0" layoutX="3.0" layoutY="3.0" stroke="#314774" strokeType="INSIDE" width="621.0" />
+      <TextField fx:id="firstName" layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="122.0" promptText="First Name" />
+      <TextField fx:id="lastName" layoutX="146.0" layoutY="14.0" prefHeight="26.0" prefWidth="122.0" promptText="Last Name" />
+      <TextField fx:id="idNumber" layoutX="275.0" layoutY="14.0" prefHeight="26.0" prefWidth="122.0" promptText="ID#" />
+      <Button fx:id="chooseSeat" layoutX="408.0" layoutY="14.0" mnemonicParsing="false" onAction="#chooseSeat" text="Choose Seat" />
+      <Button fx:id="createRes" layoutX="497.0" layoutY="13.0" mnemonicParsing="false" onAction="#createRes" text="Create Reservation" />
+   </children>
+</AnchorPane>
